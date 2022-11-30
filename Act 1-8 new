@@ -1,0 +1,184 @@
+
+    <DOCTYPE html>
+        <html>
+        
+             <meta name="viewport" content="width=device-width, initial-scale=1.0">
+             <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+            <title>Rivadillo</title>
+            
+            <style>
+                
+                body {
+          background-color: rgb(0, 0, 0);
+          background-repeat: no-repeat;
+          background-attachment: fixed; 
+          background-size: cover;
+          overflow: scroll;
+          overflow-x: hidden;
+        
+        }
+        ::-webkit-scrollbar {
+        width: 0px; 
+        
+        }
+        
+        
+        body {
+          text-align: center;
+          font-family:'Franklin Gothic Medium';
+        
+        }
+        
+        h1 {
+          border: 2px solid rgba(0, 0, 0, 0.048);
+          margin: auto;  
+          padding: 102px;
+          text-align: center;
+          font-size: 88px;
+          color: rgb(240, 69, 69);
+          font-family:Cambria;
+          text-shadow: 6px 5px rgba(19, 1, 1, 0.774);
+        
+        }
+        
+        h2 {
+            color: rgba(0, 0, 0, 0.842);
+            margin: auto;  
+          padding: 102px;
+          text-align: center;
+          font-size: 88px;
+          color: rgb(240, 69, 69);
+          font-family:Cambria;
+          text-shadow: 6px 5px rgba(19, 1, 1, 0.774);
+        }
+        
+        
+        h3 {
+            color: rgba(255, 255, 255, 0.842);
+          margin: auto;  
+          padding: 20px;
+          text-align: center;
+          font-size: 44px;
+          text-shadow: 2px 2px rgba(124, 4, 4, 0.747);
+        }
+        
+        p {
+          color: rgb(255, 255, 255);
+          background-color: rgba(211, 67, 67, 0.753);
+          font-size:22px;
+          margin: 50px;  
+          padding: 45px;
+          text-align: center;
+          text-shadow: 2px 2px rgba(61, 61, 61, 0.295);
+        
+        }
+        
+        a {
+  text-decoration: none;
+  color: #000000;
+}
+
+        .Div {
+          background-image: url('https://images5.alphacoders.com/514/thumb-1920-514769.png');
+          background-repeat: no-repeat;
+          background-attachment: fixed; 
+          background-size: cover;
+        }
+
+        .Div2 {
+          background-image: url("https://images7.alphacoders.com/845/845131.png");
+          background-repeat: no-repeat;
+          background-attachment: fixed; 
+          background-size: cover;
+        }
+
+       
+        .Div3 {
+          background-image: url("https://i.pinimg.com/originals/9a/bf/41/9abf41fec6bced9a4e9168e2b0844597.png");
+          background-repeat: no-repeat;
+          background-attachment: fixed; 
+          background-size: cover;
+        }
+
+        .Div4 {
+          background-image: url("https://wallpaperforu.com/wp-content/uploads/2021/12/Wallpaper-Anime-Anime-Girls-Anime-Boys-Kaguya1.jpg");
+          background-repeat: no-repeat;
+          background-attachment: fixed; 
+          background-size: cover;
+        }
+            </style>
+        
+        <head>
+        
+        </head>
+        <body>
+        
+            <div class="Div">
+                <br>
+                <br> <br> <br><br>
+                <br> <br> <br><br>
+                <br> <br> <br><br>
+               
+        
+            <h3>Abandon all hope, ye who enter here
+                <br>
+                ここから入らんとする者は一切の希望を放棄せよ</h3>
+           <br> <br><br>
+           <br> <br> <br><br>
+           <br> <br> <br><br>
+           <br> <br> <br><br>
+           <br> <br> <br><br>
+           <br> <br> <br><br>
+      
+           </div>
+        
+            
+        
+        
+        
+        
+        
+        </body>
+        <footer></footer>
+    <div class="Div2">
+        
+
+      <h1>{ Box Model and Outline }</h1>
+        
+    <p>"box model" is used when talking about design and layout. The CSS box model is essentially a box that wraps around every HTML element. It consists of: margins, borders, padding, and the actual content.</p>
+    
+    <p>Border - A border that goes around the padding and content<br>Padding - Clears an area around the content. The padding is transparent<br>Content - The content of the box, where text and images appear<br>Margin - Clears an area outside the border. The margin is transparent</p>
+    
+    <img src="http://www.tcpschool.com/lectures/img_css_boxmodel.png" alt="me" class="center">
+   
+    <br>
+
+
+<br><br>
+<br>
+</div>
+
+<div class="Div3">
+
+  <h1>{ Font and Text }</h1>
+  
+  <p>This text is styled with some of the text formatting properties. The heading uses the text-align, text-transform, and color properties.
+  The paragraph is indented, aligned, and the space between characters is specified. The underline is removed from this colored
+  <a target="_blank" href="https://youtu.be/fs2g1cO3v7Y?list=RDfs2g1cO3v7Y">"Try it Yourself"</a> link.</p>
+<h2>Fonts</h2>
+  <p style="font-family:fantasy;">This is a fantasy font. <br><a style="font-family:'Times New Roman', Times, serif; color: aliceblue;">This is a Times New Roman Font. <br><a style="font-family:Verdana; color: aliceblue;">This is a Verdana  Font.</p>
+  <br>
+</div>
+
+<div class="Div4">
+
+<h1>Icons</h1>
+
+<p>Icons can be defined as the images or symbols used in any computer interface refer to an element. It is a graphical representation of a file or program that helps the user to identify about the type of file quickly. Example Below:</p>
+
+<i class="material-icons" style="font-size:80px;color:lightblue;">cloud</i>
+<i class="material-icons" style="font-size:100px;color:rgb(181, 221, 0);">cloud</i>
+<i class="material-icons" style="font-size:120px;color:rgb(223, 173, 230);">cloud</i>
+</div>
+</body>
+<footer></footer>
