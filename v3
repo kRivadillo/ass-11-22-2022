@@ -64,7 +64,7 @@
         
         p {
           color: rgb(255, 255, 255);
-          background-color: rgba(250, 241, 241, 0.123);
+          background-color: rgba(250, 241, 241, 0.295);
           font-size:22px;
           margin: 50px;  
           padding: 45px;
@@ -293,6 +293,8 @@ font-size:18px;
 <h1 style="color: teal;">Forms</h1>
 
 <form action="https://youtu.be/Hag265ZNRdY?list=RDfs2g1cO3v7Y">
+
+  <p> In a database context, a form is a window or screen that contains numerous fields, or spaces to enter data. Each field holds a field label so that any user who views the form gets an idea of its contents. Example Below:</p>
   <label for="fname">First name:</label><br>
   <input type="text" id="fname" name="fname" value=""><br>
   <label for="lname">Last name:</label><br>
