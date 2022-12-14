@@ -1,15 +1,23 @@
-    <DOCTYPE html>
+<DOCTYPE html>
         <html>
         
              <meta name="viewport" content="width=device-width, initial-scale=1.0">
              <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+            
             <title>Rivadillo</title>
             
             <style>
-                
+                p.ex4 {display: inline-block;}
+                table, th, td {
+                    margin: auto;
+                    border:1px solid rgb(196, 94, 94);
+                    width: 70%;
+                    background-color: rgba(240, 248, 255, 0.555);
+}
+
                 body {
-          background-color: rgb(0, 0, 0);
-          background-repeat: no-repeat;
+                    background-image: url('https://cdn.discordapp.com/attachments/710690800996188234/1052271009002164294/IQR4b7SKhTt93tJ54sPyQ7B1CnhjOP.jpg');
+            background-repeat: no-repeat;
           background-attachment: fixed; 
           background-size: cover;
           overflow: scroll;
@@ -134,6 +142,20 @@
           background-attachment: fixed; 
           background-size: cover;
         }
+
+        .Div9 {
+          background-image: url("https://cdn.discordapp.com/attachments/710690800996188234/1049822680523735141/weJfodWuqmR4I9urDMbaVV9s3LqxEi.jpg");
+          background-repeat: no-repeat;
+          background-attachment: fixed; 
+          background-size: cover;
+        }
+
+        .Div10 {
+          background-image: url("https://cdn.discordapp.com/attachments/710690800996188234/1052453658282950737/abvGEL26n7z7OlBJDzqGwjXpHMb5t7.jpg");
+          background-repeat: no-repeat;
+          background-attachment: fixed; 
+          background-size: cover;
+        }
         /* unvisited link */
 a:link {
   color: rgba(255, 0, 170, 0.877);
@@ -205,6 +227,9 @@ font-size:18px;
         <a href="#Links" class="nav">Links</a>
         <a href="#Forms" class="nav">Form</a>
             <a href="#Website Layout" class="nav">Web Layout</a>
+            <a href="#Table" class="nav">Table</a>
+            <a href="#Display" class="nav">Display</a>
+
           </nav>
         <body>
         
@@ -326,11 +351,48 @@ font-size:18px;
 <img src="https://scontent.xx.fbcdn.net/v/t1.15752-9/317651115_3159154641062297_9183148616808390141_n.png?stp=dst-png_p403x403&_nc_cat=108&ccb=1-7&_nc_sid=aee45a&_nc_ohc=KuSd1V300-oAX8bWD3L&_nc_ad=z-m&_nc_cid=0&_nc_ht=scontent.xx&oh=03_AdT9GMEHYh4Y2g_D5lgQKeVggtZX1uZ_XIHCyYuscSy5GQ&oe=63B0894E" alt="me" class="center">
 <RIVADILLO>
 <br> <br> <br><br> <br> <br><br> <br> <br><br> <br> <br><br> <br> <br><br> <br> <br><br> <br> <br><br> <br> <br><br> <br> <br>
-<marquee>
-<h3>Webpage by Rivadillo</h3>
-</marquee>
+
+<div class="Div9">
+  <div class="right" id="Table"></div>
+<h1 style="color: rgb(255, 255, 255);">Table</h1>
+<p>CSS Table is a CSS module that defines how to lay out table data.</p>
+
+
+        <table class="table">
+          <tr>
+            <th>First Name</th>
+            <th>Last Name</th>
+            <th>Points</th>
+          </tr>
+          <tr>
+            <td>Jill</td>
+            <td>Smith</td>
+            <td>50</td>
+          </tr>
+          <tr>
+            <td>Eve</td>
+            <td>Jackson</td>
+            <td>94</td>
+          </tr>
+          <tr>
+            <td>Adam</td>
+            <td>Johnson</td>
+            <td>67</td>
+          </tr>
+        </table>
+        <br> <br> <br><br> <br> <br><br> <br> <br><br> <br> <br><br> <br> <br><br> <br> <br><br> <br> <br><br> <br> <br><br> <br> <br>
+      </div>
+      <div class="Div10">
+        <div class="right" id="Display"></div>
+      <h1 style="color: rgb(255, 255, 255);">Display</h1>
+      <p>The display CSS property sets whether an element is treated as a block or inline element and the layout used for its children, such as flow layout, grid or flex. Example below is a display that is a inline-block:</p>
+      <p class="ex4">HELLO WORLD!</p>
+      
+              <br> <br> <br><br> <br> <br><br> <br> <br><br> <br> <br><br> <br> <br><br> <br> <br><br> <br> <br><br> <br> <br><br> <br> <br>
+            </div>         
+<RIVADILLO>
 </div>
-
-
-
+<marquee>
+    <h3>Webpage by Rivadillo</h3>
+    </marquee>
 </body>
